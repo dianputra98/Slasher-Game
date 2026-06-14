@@ -5,7 +5,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig(() => {
   return {
-    // WAJIB ADA: Pastikan baris ini ada di sini dan namanya sesuai repository
+    // PASTIKAN BARIS INI ADA DI SINI: Huruf besar/kecil harus persis dengan nama repository GitHub Anda
     base: '/Slasher-Game/', 
     
     plugins: [react(), tailwindcss()],
