@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Custom CSS for slider track and body glows */
+input[type="range"]::-webkit-slider-thumb {
+  box-shadow: 0 0 10px rgba(34, 211, 238, 0.8);
+}
+
+body {
+  background-color: #020617;
+  color: #f8fafc;
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+/* Glassmorphism backing helper */
+.backdrop-glass, .glass {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+body {
+  background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+  color: #f8fafc;
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  height: 100%;
+}
+
+.grid-dot {
+  background-image: radial-gradient(#334155 1.2px, transparent 1.2px);
+  background-size: 30px 30px;
+}

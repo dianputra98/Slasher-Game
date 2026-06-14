@@ -1,0 +1,6 @@
+{
+  "name": "Motion Fitness Arcade",
+  "description": "Kumpulan mini game olahraga interaktif yang menggunakan gerakan tangan dan tubuh sebagai kontrol utama menggunakan deteksi kamera.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
